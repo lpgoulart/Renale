@@ -1,0 +1,114 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/*Main section*/
+.main, .main02, .main03, .main04 {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+}
+
+.main02 {
+    background-color: lightgray;
+}
+
+.main03 {
+    background-color: green;
+}
+
+.main04 {
+    background-color: lightblue;
+}
+
+/*end of main section*/
+
+/*CSS of MENU across the website*/
+#menu {
+    position: fixed;
+    z-index: 2;
+    margin-right: 5%;
+    right: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 20px 10px 0px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+/*End of MENU section*/
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    margin: auto 5%;
+}
+
+.footer #localizacao_map {
+    flex: 2;
+    margin-top: 100px;
+}
+
+/*End of footer section*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #menu ul {
+        margin-left: 0px;
+    }
+
+    #menu ul li a {
+        margin: 20px 0px 0px;
+        padding: 5px 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
