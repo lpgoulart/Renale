@@ -1,6 +1,6 @@
 html, body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
@@ -70,15 +70,55 @@ html, body {
 .footer {
     display: flex;
     margin: auto 5%;
+    background-color: rgba(0,0,0,0.2);
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.footer #localizacao_map {
+.footer .contact_container {
     flex: 2;
-    margin-top: 100px;
+    margin: 40px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.footer .contact_container address {
+    font-size: 15px;
 }
 
 /*End of footer section*/
 
+
+/* Social midia icons section*/
+
+.nav .nav-item {
+    margin-right: 50px;
+}
+
+.nav .nav-item a {
+    color: white;
+}
+
+.facebook {
+    background: #4f5fff;
+    border: 0px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.instagram {
+    background: red;
+    border: 0px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+/* End of social media icons section*/
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -91,6 +131,7 @@ html, body {
         margin: 20px 0px 0px;
         padding: 5px 5px;
     }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
