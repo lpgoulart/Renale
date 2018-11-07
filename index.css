@@ -1,7 +1,8 @@
 html, body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
     scroll-behavior: smooth;
+    transition: 4s;
 }
 
 
@@ -12,6 +13,24 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);
+}
+
+
+.main h1 {
+    margin: 10px 0 0 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+}
+
+
+.main {
+    background-image: url("http://h3odontologia.com.br/wp-content/uploads/2018/08/renale.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    position: relative;
+    background-attachment: fixed;
+
 }
 
 .main02 {
@@ -71,17 +90,15 @@ html, body {
     display: flex;
     margin: auto 5%;
     background-color: rgba(0,0,0,0.2);
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.footer .contact_container {
+.footer .localizacao_map {
     flex: 2;
     margin: 40px;
-    min-width: 300px;
+    max-width: 300px;
 }
 
-.footer .contact_container address {
+.footer .localizacao_map address {
     font-size: 15px;
 }
 
@@ -104,7 +121,7 @@ html, body {
     border-radius: 100%;
     width: 50px;
     height: 50px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .instagram {
@@ -129,19 +146,6 @@ html, body {
     #menu ul li a {
         margin: 20px 0px 0px;
         padding: 5px 5px;
-    }
-
-    .footer {
-        width: 100%;
-        margin: 0;
-    }
-
-    .facebook {
-        padding: 4px 0 0 4px;  
-    }
-
-    .instagram {
-        padding: 2px 0 0 2px;
     }
 }
 
