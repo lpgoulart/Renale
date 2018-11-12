@@ -2,13 +2,12 @@ html, body {
 	margin: 0;
 	padding: 0;
     scroll-behavior: smooth;
-    transition: 4s;
 }
 
 
 /*Main section*/
 .main, .main02, .main03, .main04 {
-    background-color: #fff;
+    background-color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,11 @@ html, body {
     background-size: fill;
     position: relative;
     background-attachment: fixed;
+}
 
+.main h1 a img {
+    width: 200px;
+    height: 200px;
 }
 
 .main02 {
@@ -82,20 +85,24 @@ html, body {
 #menu ul li a:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
+
 /*End of MENU section*/
 
 /* Footer section */
 
 .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
     display: flex;
-    margin: auto 5%;
+    margin: auto auto;
     background-color: rgba(0,0,0,0.2);
 }
 
 .footer .localizacao_map {
-    flex: 2;
-    margin: 40px;
+    flex: 1;
+    margin: 20px;
     max-width: 300px;
+    min-width: 300px;
 }
 
 .footer .localizacao_map address {
@@ -147,17 +154,31 @@ html, body {
         margin: 20px 0px 0px;
         padding: 5px 5px;
     }
+
+    .main h1 a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fa-facebook {
+        padding: 8px 5px 5px 3px;
+    }
+
+    .fa-instagram {
+        padding: 8px 5px 5px 2px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-}
+}   
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
