@@ -133,12 +133,15 @@ footer {
     height: 50px;
     margin: auto;
 }
+.glyphicon {
+    color: #004ccd;
+}
 footer .glyphicon {
     font-size: 20px;
     color: #004ccd;
 }
-.glyphicon {
-    color: #004ccd;
+.contato .glyphicon {
+    color: white;
 }
 .slideanim {visibility:hidden;}
 .slide {
@@ -158,6 +161,9 @@ footer .glyphicon {
 .adjust {
     margin-left: 25%;
     margin-top: 20%;
+}
+.justify {
+    text-align: justify;
 }
 @keyframes slide {
   0% {
