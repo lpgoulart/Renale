@@ -1,106 +1,209 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Renale - Clínica de Nefrologia</title>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="index.css">
+  <title>Renale - Clínica de Nefrologia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-- social icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
-<!-- favicon -->
-	<link rel="icon" href="RENALE.png" types="image/x-icon" />
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-<!-- bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- favicon -->
+	<link rel="icon" href="renale.ico" types="image/x-icon" />
 
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-	<div id="menu">
-		<ul>
-			<li><a href="#main01" class="smoothScroll"><strong>HOME</strong></a></li>
-			<li><a href="#main02" class="smoothScroll"><strong>SOBRE</strong></a></li>
-			<li><a href="#main03" class="smoothScroll"><strong>LOCAL</strong></a></li>
-			<li><a href="#main04" class="smoothScroll"><strong>CONTATO</strong></a></li>
-		</ul>
+<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#myPage">Renale</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">SOBRE</a></li>
+				<li><a href="#services">SERVIÇOS</a></li>
+				<li><a href="#staff">STAFF</a></li>
+				<li><a href="#contact">CONTATO</a></li>
+			</ul>
+	    </div>
+	  </div>
+</nav>
+
+<div class="jumbotron text-center">
+	<div style="margin:auto">
+		<h1>RENALE</h1> 
+  		<p>Clínica de nefrologia</p> 
 	</div>
+</div>
 
+<!-- (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Sobre</h2><br>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br>
+    </div>
+    <div class="col-sm-4">
+      <span class="logo"><img src="RENALE.png"></span>
+    </div>
+  </div>
+</div>
 
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSÃO:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+      <p><strong>VISÃO:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
 
-	<div class="main" id="main01">
-		
-		<h1><a href="index.html"><img src="RENALE.png"></a></h1>
-
-	</div>
-
-	<div class="main02" id="main02">
-
-	</div>
-
-	<div class="main03" id="main03">
-
-
-	</div>
-
-	<div class="main04" id="main04">
-		<div class="footer">	
-			<div class="localizacao_map">
-				<h4>Localizao</h4>
-				<hr>
-				<div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=renale&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black gmbh</a></div><style>.mapouter{text-align:right;height:350px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:300px;}</style></div>
-			</div>
-
-			<div class="localizacao_map">
-				<h4>Fale conosco</h4>
-				<hr>
-				<form class="container" method="POST" action="https://formspree.io/<RENALE-EMAIL>">
-					<div class="form-group">
-						<input type="name" name="name" placeholder="Nome" class="form-control">
-					</div>
-					<div class="form-group">
-						<input type="email" name="email" placeholder="Email" class="form-control">
-					</div>
-					<div class="form-group">
-						<textarea rows="7" name="message" placeholder="Your message" class="form-control"></textarea>
-					</div>
-					<button class="btn btn-primary" type="submit">Enviar</button>
-				</form>
-			</div>
-
-			<div class="localizacao_map">
-				<h4>Contato</h4>
-				<hr>
-				<address>
-					<i>
-						Email: ----- a definir ----- <br>
-						Telefone: (84) 3345-2600 <br>
-						Endereço: Av. Antônio Basílio, 4117 - Nova Descoberta, Natal - RN, 59056-425<br>
-					</i>
-				</address>
-				<br><br>
-				<h4>Redes sociais</h4>
-				<hr>
-				<div class="container">
-					<ul class="nav" >
-						<li class="nav-item  facebook">
-							<a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li class="nav-item instagram">
-							<a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-						</li>
-					</ul>
-				</div>
-
-			</div>
-
-
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+	<h2>SERVIÇOS</h2>
+	<h4>What we offer</h4>
+	<br>
+	<div class="row slideanim">
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-off logo-small"></span>
+			<h4>POWER</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-heart logo-small"></span>
+			<h4>LOVE</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-lock logo-small"></span>
+			<h4>JOB DONE</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
 		</div>
 	</div>
+	
+	<br><br>
+
+	<div class="row slideanim">
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-leaf logo-small"></span>
+			<h4>GREEN</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-certificate logo-small"></span>
+			<h4>CERTIFIED</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<span class="glyphicon glyphicon-wrench logo-small"></span>
+			<h4 style="color:#303030;">HARD WORK</h4>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+	</div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="staff" class="container-fluid text-center bg-grey">
+	<h2>Staff</h2>
+	<div class="slide text-center staff">
+		<div class="people">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_WHKcPM-n1a85dYQkjc4FpsbbH8kF334L8bis31czqCir5w58FPlKQ">
+			<p>Dr. Felipe</p>
+			<p>Nefrologista - bla bla bla</p>
+		</div>
+		<div class="people">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtuc4KXClnS9XiHsr-vkdhOs7Y0r0Ua3vcG4TrzfJweiA9meC-Q">
+			<p>Dr. Felipe</p>
+			<p>Nefrologista - bla bla bla</p>
+		</div>
+    	<div class="people">
+    		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qS-xlohI0vfM4PZzs3TkoMKqipqi06hde5owk5WmdiDVrT9g">
+    		<p>Dr. Felipe</p>
+    		<p>Nefrologista - bla bla bla</p>
+    	</div>
+    	<div class="people">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKoo_hcwkUtKuj--DW18gBs6_UYtthWJIgFibbDr5U8GjV6mw">
+			<p>Dr. Felipe</p>
+			<p>Nefrologista - bla bla bla</p>
+		</div>
+		<div class="people">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv_W7zdZ-LNBbN-nRN7W4D9nEHFzk5Bxg1A_ePmHZJ64Msm3Jv">
+			<p>Dr. Felipe</p>
+			<p>Nefrologista - bla bla bla</p>
+		</div>
+    	<div class="people">
+    		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzO1D532X5LDmJ7LjYWAnVXDHUR7ngSNQZwZUdFB37jz7hvogg5Q">
+    		<p>Dr. Felipe</p>
+    		<p>Nefrologista - bla bla bla</p>
+    	</div>
+	</div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-blue">
+  <h2 class="text-center">CONTACT</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-3" style="color: white;">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Av. Antônio Basílio, 4117 - Nova Descoberta, Natal - RN, 59056-425</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +55 (84) 3345-2600</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> ----- a definir -----</p>
+    </div>
+    <div class="col-sm-4 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentário/Sugentões/Perguntas" rows="8"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <p>OBS: Para informações entre em contato</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-5 slideanim">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=renale&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black gmbh</a></div><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div>
+    </div>
+
+
+
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <br>
+  <p style="margin-bottom:50px ; ">© 2018 RENALE. All rights reserved.</p>
+</footer>
+
 
 </body>
 </html>
