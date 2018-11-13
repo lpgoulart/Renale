@@ -6,11 +6,9 @@
 
 ##
 
-----
 ## Visit
 > For now you can access the website on [RENALE](renale.netlify.com)
 
-----
 ## Developed by
 
 ### Igor and Leonardo
