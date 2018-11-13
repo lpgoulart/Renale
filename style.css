@@ -36,20 +36,16 @@ h4 {
 .bg-blue {
     background-color: #004ccd;
 }
-
 .logo-small {
     color: #f4511e;
     font-size: 50px;
 }
-
 .logo {
     font-size: 200px;
 }
-
-.logo img{
+.renale-logo img{
     width:250px;
     height:250px;
-    margin-top: 70px;
 }
 .thumbnail {
     padding: 0 0 15px 0;
@@ -60,16 +56,6 @@ h4 {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
-}
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-}
-.carousel-indicators li {
-    border-color: #f4511e;
-}
-.carousel-indicators li.active {
-    background-color: #f4511e;
 }
 .item h4 {
     font-size: 19px;
@@ -149,7 +135,10 @@ footer {
 }
 footer .glyphicon {
     font-size: 20px;
-    color: #f4511e;
+    color: #004ccd;
+}
+.glyphicon {
+    color: #004ccd;
 }
 .slideanim {visibility:hidden;}
 .slide {
@@ -160,23 +149,16 @@ footer .glyphicon {
     visibility: visible;
 }
 
-.staff {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.staff .people {
-    flex: 1;
-    margin: 40px 60px 0px 60px;
-}
-
 .people img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    margin-bottom: 10px;
 }
-
+.adjust {
+    margin-left: 25%;
+    margin-top: 20%;
+}
 @keyframes slide {
   0% {
     opacity: 0;
@@ -198,14 +180,17 @@ footer .glyphicon {
   }
 }
 @media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
-  .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-  }
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .adjust {
+        margin: 0px;
+    }
 }
 @media screen and (max-width: 480px) {
   .logo {
