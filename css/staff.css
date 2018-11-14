@@ -18,7 +18,7 @@ h4 {
     margin-bottom: 30px;
 }  
 .jumbotron {
-  background-color: #004ccd;
+  background-color: #00477b;
   color: #fff;
   margin: auto;
   font-family: Montserrat, sans-serif;
@@ -30,7 +30,7 @@ h4 {
     background-color: #f6f6f6;
 }
 .bg-blue {
-    background-color: #004ccd;
+    background-color: #00477b;
 }
 .logo-small {
     color: #f4511e;
@@ -107,7 +107,7 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #004ccd;
+    background-color: #00477b;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -120,7 +120,7 @@ h4 {
     color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #004ccd !important;
+    color: #00477b !important;
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -134,11 +134,11 @@ footer {
     margin: auto;
 }
 .glyphicon {
-    color: #004ccd;
+    color: #00477b;
 }
 footer .glyphicon {
     font-size: 20px;
-    color: #004ccd;
+    color: #00477b;
 }
 .contato .glyphicon {
     color: white;
