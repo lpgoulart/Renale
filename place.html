@@ -15,7 +15,7 @@
 
 
 	<script type="text/javascript" src="js/index.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/health.css">
+	<link rel="stylesheet" type="text/css" href="css/place.css">
 
 <!-- favicon -->
 	<link rel="icon" href="img/renale.ico" types="image/x-icon" />
@@ -35,8 +35,8 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#about">DIA-A-DIA</a></li>
-				<li><a href="place.html">CONSULTORIO</a></li>
+				<li><a href="health.html">DIA-A-DIA</a></li>
+				<li><a href="#consultorio">CONSULTORIO</a></li>
 				<li><a href="staff.html">STAFF</a></li>
 				<li><a href="#contact">CONTATO</a></li>
 			</ul>
@@ -47,52 +47,58 @@
 <div class="jumbotron text-center">
 	<div style="margin:auto">
 		<h1>RENALE</h1> 
-  		<p>Clínica de nefrologia</p>
-  		<br><button class="btn btn-default"><a href="#">Blog</a></button>
-  	</div>
-</div>
-
-<!-- (About Section) -->
-<div id="about" class="container-fluid">
-	<div class="row">
-		<div class="col-sm-8 justify">
-			<h2>Cuidados diários</h2><br>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<br>
-		</div>
-		<div class="col-sm-4 renale-logo">
-			<img src="img/RENALE.png" class="logo adjust slideanim">
-		</div>
+  		<p>Clínica de nefrologia</p> 
 	</div>
 </div>
 
-<div class="container-fluid bg-grey">
-	<div class="row">
-		<div class="col-sm-4">
-			<span class="glyphicon glyphicon-list-alt logo slideanim adjust" style="color: gray"></span>
+
+<div id="consultorio" class="container" style="width: 100%; margin: 0px; padding: 0px;">
+	<div id="myCarousel" class="carousel" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" style="align-content: center;">
+		<div class="item active">
+			<img src="https://images.pexels.com/photos/263399/pexels-photo-263399.jpeg?auto=compress&cs=tinysrgb&h=350" style="width: 100%; max-height: 100vh;" class="fluid">
+			<div class="carousel-caption">
+				<h3>RENALE</h3>
+				<p>Conheça nossa clínica</p>
+			</div>
 		</div>
-		<div class="col-sm-8 justify">
-			<h2>Alimentação</h2><br>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<br>
+
+		<div class="item">
+			<img src="https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&h=350" style="width: 100%; max-height: 100vh;" class="fluid">
+			<div class="carousel-caption">
+				<p>Consultórios de qualidade</p>
+			</div>
 		</div>
+
+		<div class="item">
+			<img src="https://images.pexels.com/photos/1282308/pexels-photo-1282308.jpeg?auto=compress&cs=tinysrgb&h=350" style="width: 100%; max-height: 100vh;" class="fluid">
+			<div class="carousel-caption">
+				<p>Equipe qualificada</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+		</a>
 	</div>
 </div>
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-8 justify">
-			<h2>Cuidados diários</h2><br>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
-		<div class="col-sm-4 renale-logo">
-			<span class="glyphicon glyphicon-plus logo slideanim adjust" style="color: red"></span>
-		</div>
-	</div>
-</div>
+
 
 <!-- (Contact Section) -->
 <div id="contact" class="container-fluid bg-blue">
@@ -146,7 +152,6 @@
 	<br>
 	<p style="padding-bottom:20px;">© 2018 RENALE. Todos os direitos reservados.</p>
 </footer>
-
 
 </body>
 </html>

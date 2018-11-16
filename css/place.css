@@ -17,6 +17,12 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }  
+.carousel {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+}
 .jumbotron {
   background-color: #00477b;
   color: #fff;
@@ -40,8 +46,10 @@ h4 {
     font-size: 200px;
 }
 .renale-logo img{
-    width:250px;
-    height:250px;
+    width:400px;
+    height:350px;
+    padding-left: 10px;
+    margin-top: 90px;
 }
 .thumbnail {
     padding: 0 0 15px 0;
@@ -123,15 +131,6 @@ h4 {
     border-color: transparent;
     color: #fff !important;
 }
-
-.jumbotron a {
-    color: #00477b !important;
-}
-.jumbotron a:hover{
-    color: #00477b !important;
-    text-decoration: none;
-}
-
 footer {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -157,7 +156,7 @@ footer .glyphicon {
     visibility: visible;
 }
 .adjust {
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 20%;
 }
 .justify {
@@ -193,6 +192,12 @@ footer .glyphicon {
         margin-bottom: 35px;
     }
     .adjust {
+        margin: 0px;
+    }
+    .renale-logo img{
+        width:300px;
+        height:250px;
+        padding: 0px;
         margin: 0px;
     }
 }
