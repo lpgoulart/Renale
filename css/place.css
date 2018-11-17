@@ -190,7 +190,7 @@ footer .glyphicon {
         min-height: 30vh;
     }
     .carousel img {
-        min-height: 35vh;
+        min-height: 45vh;
     }
 }
 @media screen and (max-width: 480px) {
