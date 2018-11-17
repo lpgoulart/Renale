@@ -147,14 +147,6 @@ footer .glyphicon {
 .contato .glyphicon {
     color: white;
 }
-.slideanim {visibility:hidden;}
-.slide {
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    visibility: visible;
-}
 .adjust {
     margin-left: 20%;
     margin-top: 20%;
@@ -194,11 +186,11 @@ footer .glyphicon {
     .adjust {
         margin: 0px;
     }
-    .renale-logo img{
-        width:300px;
-        height:250px;
-        padding: 0px;
-        margin: 0px;
+    .carousel {
+        min-height: 30vh;
+    }
+    .carousel img {
+        min-height: 35vh;
     }
 }
 @media screen and (max-width: 480px) {
