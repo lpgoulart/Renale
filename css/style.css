@@ -24,8 +24,7 @@ h4 {
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 10px;
+    background: #00477b; 
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
