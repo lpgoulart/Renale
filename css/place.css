@@ -16,7 +16,21 @@ h4 {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-}  
+} 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 10px;
+}
 .carousel {
     min-height: 100vh;
     display: flex;
