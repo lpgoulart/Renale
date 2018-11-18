@@ -27,8 +27,7 @@ h4 {
     background: #00477b;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-    border-radius: 10px;
+    background: #00477b;
 }
 .carousel {
     min-height: 100vh;
