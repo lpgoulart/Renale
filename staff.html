@@ -34,10 +34,36 @@
 			<a class="navbar-brand" href="index.html">Renale</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="health.html">DIA-A-DIA</a></li>
-				<li><a href="place.html">CONSULTORIO</a></li>
-				<li><a href="#staff">EQUIPE</a></li>
+			<ul class="nav navbar-nav navbar-right dropdown">
+				
+				<li>
+					<a onclick="empresaDropdown()" class="dropbtn">EMPRESA</a>
+					<div id="empresa" class="dropdown-content">
+						<a href="index.html">SOBRE</a>
+						<a href="index.html">CONVÊNIOS</a>
+						<a href="index.html">CURIOSIDADES</a>
+					</div>
+				</li>
+				
+				<li>
+					<a onclick="blogDropdown()" class="dropbtn">BLOG</a>
+					<div id="blog" class="dropdown-content">
+						<a href="heath.html">NOSSO BLOG*</a>
+						<a href="heath.html">DIA-A-DIA*</a>
+						<a href="heath.html">DICAS*</a>
+					</div>
+				</li>
+
+				<li>
+					<a onclick="dialiseDropdown()" class="dropbtn">DIÁLISE</a>
+					<div id="dialise" class="dropdown-content">
+						<a href="place.html">NOSSA DIÁLISE</a>
+						<a href="place.html">CONSULTÓRIO</a>
+					</div>
+				</li>
+
+				<li><a href="#myPage">EQUIPE</a></li>
+				
 				<li><a href="#contact">CONTATO</a></li>
 			</ul>
 	    </div>
