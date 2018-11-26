@@ -264,6 +264,9 @@ footer .glyphicon {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .navbar-show {
+        visibility: hidden;
+    }
 }
 @media screen and (max-width: 480px) {
   .logo {

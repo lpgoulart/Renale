@@ -111,11 +111,11 @@ $(document).ready(function() {
             if (windowpos >= begin.top & windowpos <= pos.top - 50) {
                 nav.removeClass("bg-blue"); 
                 dropdown.removeClass("bg-blue");
-                nav.addClass("hide");
+                nav.addClass("navbar-show");
             } else {
                 nav.addClass("bg-blue");
                 dropdown.addClass("bg-blue");
-                nav.removeClass("hide");
+                nav.removeClass("navbar-show");
             }
         } else {
             if (windowpos >= begin.top & windowpos <= pos.top - 200) {
