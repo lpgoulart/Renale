@@ -95,3 +95,36 @@ window.onclick = function(event) {
         }
     }
 }
+
+$(document).ready(function() {
+
+    var bodyWidth = $('body').width(); 
+
+    var nav = $(".navbar");
+    var blog = $("#blogpage");
+    var dropdown = $(".dropdown-content");
+    var begin = nav.position();
+    var pos = blog.position();                    
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        if (bodyWidth <= 768) {
+            if (windowpos >= begin.top & windowpos <= pos.top - 50) {
+                nav.removeClass("bg-blue"); 
+                dropdown.removeClass("bg-blue");
+                nav.addClass("hide");
+            } else {
+                nav.addClass("bg-blue");
+                dropdown.addClass("bg-blue");
+                nav.removeClass("hide");
+            }
+        } else {
+            if (windowpos >= begin.top & windowpos <= pos.top - 200) {
+                nav.removeClass("bg-blue"); 
+                dropdown.removeClass("bg-blue");
+            } else {
+                nav.addClass("bg-blue");
+                dropdown.addClass("bg-blue");
+            }
+        }
+    });
+});
