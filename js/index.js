@@ -108,7 +108,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         if (bodyWidth <= 768) {
-            if (windowpos >= begin.top & windowpos <= pos.top - 50) {
+            if (windowpos >= begin.top & windowpos <= (pos.top) - 50) {
                 nav.removeClass("bg-blue"); 
                 dropdown.removeClass("bg-blue");
                 nav.addClass("navbar-show");
@@ -118,7 +118,7 @@ $(document).ready(function() {
                 nav.removeClass("navbar-show");
             }
         } else {
-            if (windowpos >= begin.top & windowpos <= pos.top - 200) {
+            if (windowpos >= begin.top & windowpos <= (pos.top) - 200) {
                 nav.removeClass("bg-blue"); 
                 dropdown.removeClass("bg-blue");
             } else {
