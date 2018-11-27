@@ -220,6 +220,9 @@ footer .glyphicon {
     max-width: 500px;
     height: auto;
 }
+.dib-post-title-link {
+    color: #363636!important;
+}
 @keyframes slide {
   0% {
     opacity: 0;
