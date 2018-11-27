@@ -33,21 +33,13 @@ $(document).ready(function(){
   });
 });
 
-        
-function blogDropdown() {
-    document.getElementById("empresa").classList.remove("show");
-    document.getElementById("dialise").classList.remove("show");
-    document.getElementById("blog").classList.toggle("show");
-}
 
 function empresaDropdown() {
-    document.getElementById("blog").classList.remove("show");
     document.getElementById("dialise").classList.remove("show");
     document.getElementById("empresa").classList.toggle("show");
 }
 
 function dialiseDropdown() {
-    document.getElementById("blog").classList.remove("show");
     document.getElementById("empresa").classList.remove("show");
     document.getElementById("dialise").classList.toggle("show");
 }
