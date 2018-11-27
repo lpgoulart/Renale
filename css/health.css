@@ -214,8 +214,12 @@ footer .glyphicon {
     background-color: #ddd;
     color: #00477b;
 }
-
 .show {display: block;}
+.dib-post-featured-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
 @keyframes slide {
   0% {
     opacity: 0;
