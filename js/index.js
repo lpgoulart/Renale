@@ -35,13 +35,7 @@ $(document).ready(function(){
 
 
 function empresaDropdown() {
-    document.getElementById("dialise").classList.remove("show");
     document.getElementById("empresa").classList.toggle("show");
-}
-
-function dialiseDropdown() {
-    document.getElementById("empresa").classList.remove("show");
-    document.getElementById("dialise").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
