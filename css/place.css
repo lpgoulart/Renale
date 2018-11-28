@@ -1,7 +1,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #303030;
 }
 h2 {
     font-size: 24px;
@@ -29,14 +29,7 @@ h4 {
 ::-webkit-scrollbar-thumb:hover {
     background: #00477b;
 }
-.carousel {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
-}
 .jumbotron {
-  background-color: #00477b;
   color: #fff;
   margin: auto;
   font-family: Montserrat, sans-serif;
@@ -44,7 +37,7 @@ h4 {
 .container-fluid {
     padding: 60px 50px;
 }
-.bg-grey {
+.bg-gray {
     background-color: #f6f6f6;
 }
 .bg-blue {
