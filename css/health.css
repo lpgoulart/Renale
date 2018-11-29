@@ -35,6 +35,9 @@ h4 {
   margin: auto;
   font-family: Montserrat, sans-serif;
 }
+.headerlogo {
+    width: 400px;
+}
 .container-fluid {
     padding: 60px 50px;
 }
@@ -255,9 +258,15 @@ footer .glyphicon {
     .adjust {
         margin: 0px;
     }
+    .headerlogo {
+        width: 300px;
+    }
 }
 @media screen and (max-width: 480px) {
   .logo {
       font-size: 150px;
   }
+  .headerlogo {
+        width: 300px;
+    }
 }
