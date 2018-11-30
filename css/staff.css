@@ -216,8 +216,10 @@ footer .glyphicon {
     background-color: #ddd;
     color: #00477b;
 }
-
 .show {display: block;}
+.nome-navbar {
+    visibility: hidden;
+}
 @keyframes slide {
   0% {
     opacity: 0;

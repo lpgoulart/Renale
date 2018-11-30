@@ -203,6 +203,9 @@ footer .glyphicon {
 }
 
 .show {display: block;}
+.nome-navbar {
+    visibility: hidden;
+}
 @keyframes slide {
   0% {
     opacity: 0;
