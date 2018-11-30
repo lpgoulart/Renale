@@ -58,11 +58,13 @@ $(document).ready(function() {
 
     var bodyWidth = $('body').width(); 
 
+    var nome = $("#nome_nav");
     var nav = $(".navbar");
     var blog = $("#blogpage");
     var dropdown = $(".dropdown-content");
     var begin = nav.position();
-    var pos = blog.position();                    
+    var pos = blog.position();            
+      
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         if (bodyWidth <= 768) {
@@ -77,13 +79,14 @@ $(document).ready(function() {
             }
         } else {
             if (windowpos >= begin.top & windowpos <= (pos.top) - 200) {
+                nome.addClass("nome-navbar");
                 nav.removeClass("bg-blue"); 
                 dropdown.removeClass("bg-blue");
             } else {
                 nav.addClass("bg-blue");
                 dropdown.addClass("bg-blue");
+                nome.removeClass("nome-navbar");
             }
         }
     });
 });
-
