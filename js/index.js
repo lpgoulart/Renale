@@ -63,7 +63,7 @@ $(document).ready(function() {
     var blog = $("#blogpage");
     var dropdown = $(".dropdown-content");
     var begin = nav.position();
-    var pos = blog.position();            
+    var pos = blog.position();       
       
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
