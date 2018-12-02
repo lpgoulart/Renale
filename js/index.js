@@ -72,10 +72,12 @@ $(document).ready(function() {
                 nav.removeClass("bg-blue"); 
                 dropdown.removeClass("bg-blue");
                 nav.addClass("navbar-show");
+                nome.addClass("nome-navbar");
             } else {
                 nav.addClass("bg-blue");
                 dropdown.addClass("bg-blue");
                 nav.removeClass("navbar-show");
+                nome.removeClass("nome-navbar");
             }
         } else {
             if (windowpos >= begin.top & windowpos <= (pos.top) - 200) {
