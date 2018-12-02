@@ -35,7 +35,14 @@ h4 {
   margin: auto;
   font-family: Montserrat, sans-serif;
 }
+.blog-adjust {
+    padding: 50px 0 50px 0;
+}
 .about {
+    height: 70vh;
+    overflow: auto;
+}
+.about-list {
     height: 70vh;
     overflow: auto;
 }
@@ -267,6 +274,13 @@ footer .glyphicon {
     }
     .headerlogo {
         width: 300px;
+    }
+    .blog-adjust {
+        padding: 20px 40px 50px 10px;
+    }
+    .about-list {
+        height: 20vh;
+        overflow: auto;
     }
 }
 @media screen and (max-width: 480px) {
