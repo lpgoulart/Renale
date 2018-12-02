@@ -36,8 +36,8 @@ h4 {
   font-family: Montserrat, sans-serif;
 }
 .about {
-    max-height: 70vh;
-    overflow: scroll;
+    height: 70vh;
+    overflow: auto;
 }
 .headerlogo {
     width: 400px;
