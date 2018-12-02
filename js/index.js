@@ -90,3 +90,7 @@ $(document).ready(function() {
         }
     });
 });
+
+function blog() {
+  window.location = "https://renale.netlify.com/health.html"
+}
