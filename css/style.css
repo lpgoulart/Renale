@@ -38,9 +38,6 @@ h4 {
   margin: auto;
   font-family: Montserrat, sans-serif;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
   /*background-image: url("https://lh3.googleusercontent.com/-knja0H_ZSNM/W505FvJR9bI/AAAAAAAAFv4/UOeNLvbmPm4ARvBvnIneOOe-PZgvTcP1wCLIBGAYYCw/w1080-h608-p-no/");*/
   background-image: url("https://scontent-ort2-2.cdninstagram.com/vp/855a072ae6f7af29ff96efaff3f7b829/5CA2DE4E/t51.2885-15/e35/37320100_2115763805305304_746315627844599808_n.jpg");
   background-repeat: no-repeat;
