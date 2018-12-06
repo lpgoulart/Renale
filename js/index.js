@@ -94,5 +94,9 @@ $(document).ready(function() {
 });
 
 function blog() {
-  window.location = "https://renale.netlify.com/health.html"
+  window.location = "https://renale.netlify.com/blog.html"
+}
+
+function blog() {
+  window.location = "https://renale.netlify.com/empresa.html"
 }
