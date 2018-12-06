@@ -97,6 +97,6 @@ function blog() {
   window.location = "https://renale.netlify.com/blog.html"
 }
 
-function blog() {
+function empresa() {
   window.location = "https://renale.netlify.com/empresa.html"
 }
