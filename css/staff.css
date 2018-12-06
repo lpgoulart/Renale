@@ -219,6 +219,9 @@ footer .glyphicon {
 .navbar-show {
     visibility: hidden;
 }
+.values {
+    text-align: left;
+}
 @keyframes slide {
   0% {
     opacity: 0;
@@ -250,13 +253,13 @@ footer .glyphicon {
     }
     .adjust {
         margin: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 15%;
     }
     .headerlogo {
         width: 300px;
     }
-    .justify {
-        /*text-align: left;*/
+    .values {
+        text-align: justify; 
     }
 }
 @media screen and (max-width: 480px) {
