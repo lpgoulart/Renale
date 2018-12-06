@@ -35,7 +35,6 @@ h4 {
 .jumbotron {
   background-color: #00477b;
   color: #fff;
-  margin: auto;
   font-family: Montserrat, sans-serif;
   min-height: 100vh;
   /*background-image: url("https://lh3.googleusercontent.com/-knja0H_ZSNM/W505FvJR9bI/AAAAAAAAFv4/UOeNLvbmPm4ARvBvnIneOOe-PZgvTcP1wCLIBGAYYCw/w1080-h608-p-no/");*/
@@ -216,6 +215,9 @@ footer .glyphicon {
 }
 
 .show {display: block;}
+.phone {
+    visibility: initial;
+}
 @keyframes slide {
   0% {
     opacity: 0;
@@ -265,6 +267,9 @@ footer .glyphicon {
         background-size: cover;
     }
     .navbar-show {
+        visibility: hidden;
+    }
+    .phone {
         visibility: hidden;
     }
 }
