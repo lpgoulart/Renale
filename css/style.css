@@ -273,6 +273,11 @@ footer .glyphicon {
     .phone {
         visibility: hidden;
     }
+    .navbar-collapse ul{
+        width: 100%;
+       text-align: center; 
+       margin: 0;
+    }
 }
 @media screen and (max-width: 480px) {
   .logo {
