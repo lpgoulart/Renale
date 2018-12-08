@@ -30,9 +30,10 @@ h4 {
     background: #00477b;
 }
 .jumbotron {
-  color: #fff;
+  color: white;
   margin: auto;
   font-family: Montserrat, sans-serif;
+  background-color: #fff;
 }
 .headerlogo {
     width: 400px;
