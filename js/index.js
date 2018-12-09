@@ -97,6 +97,14 @@ function blog() {
   window.location = "https://renale.netlify.com/blog.html"
 }
 
+function blogeng() {
+  window.location = "https://renale.netlify.com/eng/blog.html"
+}
+
 function empresa() {
   window.location = "https://renale.netlify.com/empresa.html"
+}
+
+function company() {
+  window.location = "https://renale.netlify.com/eng/company.html"
 }
