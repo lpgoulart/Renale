@@ -11,6 +11,6 @@
 
 ## Developed by
 
-### Igor and Leonardo
+### Leonardo
 
 ###### If you have any issues to report, please contact the developers.
